@@ -1,0 +1,75 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{fullpage}
+\usepackage{hyperref}
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+\usepackage{array, xcolor}
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large}{}{0em}{}[\titlerule]
+
+\begin{document}
+\pagestyle{empty}
+\par{\centering{\Huge \textsc{Frank} \textsc{Evers}}\bigskip\par}
+
+\section*{Personal Data}
+\begin{tabular}{L!{\VRule}R}
+Address         & Brabantlaan 51\\
+                & 5635 KB Aarle-Rixtel\\
+Phone number    & +31626900136\\
+E-mail          & \href{mailto:mail@frankevers.net}{mail@frankevers.net}\\
+Social media    & \href{http://nl.linkedin.com/pub/frank-evers/19/a7/ab6}{Linkedin},
+                  \href{https://twitter.com/theevers}{Twitter},
+                  \href{http://www.youtube.com/playlist?list=PLRedVSIuVg_I_QKzDhcgLKSCZjHuzRgAl}{YouTube} and
+                  \href{https://github.com/TankPi}{GitHub} \\
+Date of birth   & May 22, 1986 \\
+Place of birth  & Udenhout, The Netherlands\\
+Nationality     & Dutch
+\end{tabular}
+
+\section*{Education}
+\begin{tabular}{L!{\VRule}R}
+2012--2015 &   MSc program Systems \& Control, Eindhoven University of Technology, Netherlands.\\
+% \hyperlink{grades}{\hfill | \footnotesize Detailed List of Courses}\\[1pt]
+2011--2012  &   Pre-master Systems \& Control, Eindhoven University of Technology, Netherlands.\\
+2007--2011  &   BSc mechanical engineering, Avans University of Applied Sciences, Netherlands.\\
+& Winning "peik in techniek" award for best first year student. 
+\end{tabular}
+
+\section*{Internships}
+\begin{tabular}{L!{\VRule}R}
+2015 & TNO, Helmond, Netherlands. Multiple sensor target tracking algorithm. MSc graduation thesis. \par\textit{Design of new multiple sensor target tracking algorithm for environmental perception in a automated driving use case.}\\
+2014 & TNO, Helmond, Netherlands. Comparison study between the Kalman and Particle Filter. MSc internship thesis. \par\textit{Comparison study between the Kalman and Particle Filter in a Cooperative Advanced Cruise Control (CACC) use case.}\\
+2011 & Settels Savenije van Amelsvoort, Eindhoven, Netherlands. Actively balancing walking cane. BSc graduation thesis. \par\textit{Design and realization of prototype of actively balancing cane for the elderly.}\\
+% 2009 & Planta Hidroeléctrica Centroamérica, Jinotega, Nicaragua. Emergency closing mechanism for butterfly valve. \par\textit{Design of emergency closing mechanism for butterfly valve of a water pumping station in case of a power outage.} \\
+\end{tabular}
+
+\section*{Professional Experience}
+\begin{tabular}{L!{\VRule}R}
+2015 - now job & Junior Mechatronics Engineer at Settels Savenije van Amelsvoort \par\textit{Design and realization of electronics, mechanics and software of a hand device to apply compression bandage with equal pressure} \\2013 - summer job & Junior Mechatronics Engineer at Settels Savenije van Amelsvoort \par\textit{Design and realization of electronics, mechanics and software of a hand device to apply compression bandage with equal pressure} \\
+2012 - summer job & Junior Mechatronics Engineer at Settels Savenije van Amelsvoort \par\textit{Design and realization of electronics and software of carpet gluing robot prototype} \\
+2010--2011 & Junior CAD-engineer at FREE ENGINEERING B.V. \par\textit{Drawing greenhouses and scaffolding} \\
+\end{tabular}
+
+\section*{Languages}
+\begin{tabular}{L!{\VRule}R}
+Dutch       &   Native\\
+English     &   Professional working proficiency\\
+Spanish     &   Limited working proficiency\\
+\end{tabular}
+
+\section*{Computer Skills}
+Good knowledge of Matlab, Robotics Operating System (ROS), Mathematica, C/C++, Solidworks, Linux, LaTeX, Microsoft Office.
+
+\section*{Interests and Activities}
+DIY, sustainable technology\\
+running, recreational glider pilot, construction gliding simulator, certified glider technician (in training)
+
+\end{document}
